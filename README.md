@@ -1,4 +1,4 @@
-# Neural-Network
+# Neural-Network-Model
 # Welcome to the Heart Failure Prediction Project
 Heart failure is a critical medical condition that affects millions of people worldwide. Early detection and accurate prediction of heart failure can save lives and improve patient outcomes. This project is a proactive step towards achieving that goal. By sharing our findings and model, the healthcare community can promote the development of more effective diagnostic tools.
 The Heart Failure Prediction Project is where advanced neural network models meet vital healthcare data. This project is dedicated to predicting heart failure cases with precision and care, harnessing the power of cutting-edge machine learning techniques.
