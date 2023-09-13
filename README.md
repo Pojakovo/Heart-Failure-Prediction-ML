@@ -4,7 +4,7 @@ Heart failure is a critical medical condition that affects millions of people wo
 The Heart Failure Prediction Project is where advanced neural network models meet vital healthcare data. This project is dedicated to predicting heart failure cases with precision and care, harnessing the power of cutting-edge machine learning techniques.
 
 # THE APPROACH
-This project revolves around the core objective of predicting heart failure through the utilization of diverse machine learning methodologies.Our toolkit includes decision trees, gradient boosting, and artificial neural networks.The heart of our work lies in a comprehensive comparative analysis of these models, with a specific emphasis on showcasing the exceptional prowess of artificial neural networks in the realm of heart failure prediction.
+This project revolves around the core objective of predicting heart failure through the utilization of diverse machine learning methodologies. Our toolkit includes decision trees, gradient boosting, and artificial neural networks.The heart of our work lies in a comprehensive comparative analysis of these models, with a specific emphasis on showcasing the exceptional prowess of artificial neural networks in the realm of heart failure prediction.
 
 We've harnessed the power of cutting-edge machine learning models to create a robust prediction system. By harnessing the strengths of two distinct datasets, we've meticulously trained and fine-tuned our model for the precise detection of potential heart failure cases.
 Our approach involves a rigorous pipeline encompassing data preprocessing, model training, and thorough evaluation, all aimed at achieving the highest levels of accuracy.
@@ -15,6 +15,16 @@ We've incorporated two significant datasets into our project, allowing us to com
 # DATASET USED
 * Link to the first dataset:https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/download?datasetVersionNumber=1
 * Link to the second dataset:https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/
+
+# PIPELINE
+* Data Collection: We gather data from two distinct datasets
+* Data Preprocessing: Data from both datasets are cleaned and preprocessed separately to ensure consistency and quality.
+Steps include handling missing values, data normalization, and feature engineering to create relevant features for our model.
+* Model Training: A neural network-based heart failure prediction model is developed and trained using the integrated dataset.
+* Model Evaluation: The model's performance is assessed through rigorous evaluation techniques, including cross-validation and metrics like accuracy, precision, and recall.
+* Results and Insights: The final model is capable of making heart failure predictions with a high degree of accuracy.
+The project generates valuable insights into the factors contributing to heart failure risk.
+
   
 # INSTALLATION
 To get started with the Neural Network Prediction Project, please follow the installation steps outlined below;
@@ -38,15 +48,6 @@ To get started with the Neural Network Prediction Project, please follow the ins
 * To run a specific notebook, use a Jupyter notebook environment or execute the notebook using `jupyter nbconvert --execute < notebook_name>.ipynb
 * You can also use the machine learning models in the `src/` directory to predict heart failure using your own data.
   
-# PIPELINE
-* Data Collection: We gather data from two distinct datasets
-* Data Preprocessing: Data from both datasets are cleaned and preprocessed separately to ensure consistency and quality.
-Steps include handling missing values, data normalization, and feature engineering to create relevant features for our model.
-* Model Training: A neural network-based heart failure prediction model is developed and trained using the integrated dataset.
-* Model Evaluation: The model's performance is assessed through rigorous evaluation techniques, including cross-validation and metrics like accuracy, precision, and recall.
-* Results and Insights: The final model is capable of making heart failure predictions with a high degree of accuracy.
-The project generates valuable insights into the factors contributing to heart failure risk.
-
 # LICENSE
 This project is licensed under the MIT license. See the LICENSE file for more details.
 
