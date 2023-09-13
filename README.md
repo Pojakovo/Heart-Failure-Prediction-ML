@@ -4,10 +4,14 @@ Heart failure is a critical medical condition that affects millions of people wo
 The Heart Failure Prediction Project is where advanced neural network models meet vital healthcare data. This project is dedicated to predicting heart failure cases with precision and care, harnessing the power of cutting-edge machine learning techniques.
 
 # THE APPROACH
-We've leveraged the capabilities of neural networks to create a robust prediction model. Using two distinct datasets, we've meticulously designed and trained our model to excel in identifying potential heart failure cases. Our methodology involves data preprocessing, model training, and rigorous evaluation to ensure the utmost accuracy.
+This project revolves around the core objective of predicting heart failure through the utilization of diverse machine learning methodologies.Our toolkit includes decision trees, gradient boosting, and artificial neural networks.The heart of our work lies in a comprehensive comparative analysis of these models, with a specific emphasis on showcasing the exceptional prowess of artificial neural networks in the realm of heart failure prediction.
+
+We've harnessed the power of cutting-edge machine learning models to create a robust prediction system. By harnessing the strengths of two distinct datasets, we've meticulously trained and fine-tuned our model for the precise detection of potential heart failure cases.
+Our approach involves a rigorous pipeline encompassing data preprocessing, model training, and thorough evaluation, all aimed at achieving the highest levels of accuracy.
 
 # DATASET
 We've incorporated two significant datasets into our project, allowing us to compare and contrast results effectively. These datasets provide a diverse and comprehensive range of patient information, enhancing the model's ability to make accurate predictions.
+
 # DATASET USED
 * Link to the first dataset:https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/download?datasetVersionNumber=1
 * Link to the second dataset:https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/
@@ -28,6 +32,11 @@ To get started with the Neural Network Prediction Project, please follow the ins
 * Install the required dependencies
 * pip install -r requirements.txt
 * Run the Neural Network prediction script
+
+# USAGE
+* Navigate to the `notebooks/` directory to access Jupyter notebooks for data exploration, preprocessing, model training, and evaluation.
+* To run a specific notebook, use a Jupyter notebook environment or execute the notebook using `jupyter nbconvert --execute < notebook_name>.ipynb
+* You can also use the machine learning models in the `src/` directory to predict heart failure using your own data.
   
 # PIPELINE
 * Data Collection: We gather data from two distinct datasets
